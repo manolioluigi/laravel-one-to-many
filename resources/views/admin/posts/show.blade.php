@@ -18,6 +18,10 @@
                   <strong>Slug:</strong>  
                   {{$post->slug}}
                 </p>
+                <p>
+                    <strong>Tipo:</strong>
+                    {{$post->type ? $post->type->name : 'Senza categoria'}}
+                </p>
                 <label class="d-block">
                     <strong>Contenuto:</strong>
                 </label>
